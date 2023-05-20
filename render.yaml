@@ -1,8 +1,7 @@
+
 services:
   - type: web
     name: thjproxy
-    env: docker
-    repo: https://github.com/rammerhq/MagicRammer.git 
+    env: docker 
     plan: free
-    branch: main 
-   
+ 
