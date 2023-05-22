@@ -37,7 +37,8 @@ body {
 }
 
 .logo {
-    width: 150px;
+    width: 100px;
+    height: 250px;
 }
 
 .logo-wrapper .text {
