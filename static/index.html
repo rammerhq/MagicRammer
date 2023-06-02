@@ -92,13 +92,11 @@
     <script src="index.js"></script> </div>
 
   <script>
-    // Set up canvas
     var canvas = document.querySelector('canvas');
     var ctx = canvas.getContext('2d');
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 
-    // Set up particles
     var particleCount = 50;
     var particles = [];
 
@@ -148,7 +146,6 @@
 
     draw();
 
-    // Resize canvas on window resize
     window.addEventListener('resize', function () {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
@@ -162,7 +159,6 @@
     function showLoadingIcon() {
       const loadingIcon = document.getElementById('loadingIcon');
       loadingIcon.style.display = 'inline-block';
-      // Add your loading logic here, such as making an API request or performing an action
     }
   </script>
 </body>
