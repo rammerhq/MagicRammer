@@ -60,6 +60,25 @@
       margin-bottom: 200px;
       font-family: "Open Sans", sans-serif;
     }
+    .porter {
+        border-radius: 20px;
+        border-color: #000;
+        border-width: 5px;
+        box-shadow: #000, 2px;
+        width: 1000px;
+        height: 100px;
+        text-align: center;
+        color: white;
+        font-size: x-large;
+    }
+
+    .porter:hover {
+        width: 1200px;
+        height: 150px;
+        border-color: teal;
+        font-size: xx-large;
+        transition: ease-in, 2s;
+    }
   </style>
 </head>
 
@@ -86,7 +105,7 @@
   <!--end of navbar 0RCA-->
   <div class="container">
     <canvas id="canvas"></canvas>
-    <form> <input class="center" placeholder="Search..."> </form> 
+    <form> <input class="porter" placeholder="Search..."> </form> 
     <script src="uv/uv.bundle.js"></script> 
     <script src="uv/uv.config.js"></script> 
     <script src="index.js"></script> </div>
